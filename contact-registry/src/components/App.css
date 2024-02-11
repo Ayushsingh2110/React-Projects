@@ -1,0 +1,69 @@
+/*Header.js*/
+.headerBar{
+  width: 100vw;
+  padding: 10px;
+  background-color:darkblue;
+  color: white;
+  font-weight: bold;
+  word-spacing: 1.5em;
+  letter-spacing: 0.5em;
+  font-size: larger;
+}
+
+.main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field input{
+  width: 70vw;
+  height: 40px;
+  padding: 5px;
+  border-radius: 1rem;
+  font-size: larger;
+}
+
+.item {
+  display: flex;
+  gap: 5vw;
+  padding: 15px 0px !important;
+}
+
+.button{
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.blue{
+  background-color: blue;
+  color: white !important;
+}
+
+.red{
+  background-color: red;
+  color: white !important;
+}
+
+.contact-list{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
